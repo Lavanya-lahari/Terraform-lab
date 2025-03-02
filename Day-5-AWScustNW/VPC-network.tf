@@ -55,6 +55,10 @@ resource "aws_route_table_association" "Name" {
   
 }
 
+# Create nat gateway for private subnet
+# Create route for private subnets and edit routes 
+# route table association 
+
 #Create Security group
 resource "aws_security_group" "allow_tls" {
   name        = "allow_tls"
